@@ -1,2 +1,11 @@
 # but0n.github.io
->* Idear from hooli.xyz, code by myself.
+>* `HTML`, `CSS`, `jQuery`
+* Idear from `[hooli.xyz](http://hooli.xyz)`, code by myself.
+
+# Detail
+> 
+```
+		index.html
+```
+
+		
