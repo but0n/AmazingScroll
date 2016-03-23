@@ -8,6 +8,7 @@ var link = [,,,,,,"http://github.com/but0n/", "http://instagram.com/but0n/"];
 var x = window.innerWidth;
 var y = window.innerHeight;
 $(function() {
+    if(x<y) alert("原谅我目前还没有写移动端的布局。。暂时使用横屏浏览吧");
     init_layout();
     $(window).scroll(function() {img_transition()});
     $(window).resize(function(){
