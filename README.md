@@ -1,2 +1,2 @@
 # but0n.github.io
-hello
+>* Idear from hooli.xyz, code by myself.
