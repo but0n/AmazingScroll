@@ -4,7 +4,7 @@
 
 # Detail
 > `index.html`
->> `img`
-		`css`
+> `img`
+> `css`
 
 		
