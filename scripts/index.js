@@ -4,7 +4,7 @@
 //
 //=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=
 var aim = [];
-var link = [,,,,,,"http://github.com/but0n/", "http://instagram.com/but0n/"];
+var link = [,,,,,,"http://github.com/but0n", "http://instagram.com/but0n"];
 var x = window.innerWidth;
 var y = window.innerHeight;
 $(function() {
