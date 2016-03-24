@@ -3,7 +3,7 @@
 >* Idear from [hooli.xyz](http://hooli.xyz), code by myself.
 
 ## Detail
-The code of `hooli` is hard to read, </br>
+The codes of `hooli` is hard to read, </br>
 Cause they use a kind of library or something from `Adobe`,</br>
 So I use Firefox to reason out how does it works,</br>
 At last, I write it out.</br>
