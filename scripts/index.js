@@ -3,10 +3,10 @@
 //          BY BUT0N
 //
 //=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=
-var aim = [];
-var link = [,,,,,,"http://github.com/but0n", "http://instagram.com/but0n"];
-var x = window.innerWidth;
-var y = window.innerHeight;
+var aim = [],
+    link = [,,,,,,"http://github.com/but0n", "http://instagram.com/but0n"],
+    x = window.innerWidth,
+    y = window.innerHeight;
 $(function() {
     if(x<y) alert("原谅我目前还没有写移动端的布局。。暂时使用横屏浏览吧");
     init_layout();
@@ -41,7 +41,6 @@ function init() {
         $(e).click(function() {
             if(link[i]) window.open(link[i]);
             else alert("你可以在网上搜索有关 "+$(e).children().eq(1).text()+" 的内容")
-//            if(link[i]) location.href = link[i];
         })
     })
 
