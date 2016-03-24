@@ -1,5 +1,5 @@
 # but0n.github.io
->* `HTML` `CSS` `jQuery`
+>* Tag: `HTML` `CSS` `jQuery`
 >* Idear from [hooli.xyz](http://hooli.xyz), code by myself.
 
 ## Detail
@@ -8,8 +8,8 @@
 > So I use Firefox to copy one, </br>
 > ***
 > ###About js
-> The most important function as follow
->
+>> The most important function as follow
+>>
 ```javascript
 function img_transition() {
     var len = $(window).scrollTop();        
