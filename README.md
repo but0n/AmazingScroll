@@ -4,8 +4,9 @@
 
 ## Detail
 The code of `hooli` is hard to read, </br>
-Cause they use a lib of `Adobe` or something,</br>
-So I use Firefox to copy one, </br>
+Cause they use a kind of library or something from `Adobe`,</br>
+So I use Firefox to reason out how does it works,</br>
+At last, I write it out.</br>
 
 ###About js
 > The most important function as follow:
