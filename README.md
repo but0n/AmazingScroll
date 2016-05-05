@@ -8,7 +8,7 @@ Cause they use a kind of library or something from `Adobe`,</br>
 So I use Firefox to reason out how does it works,</br>
 At last, I write it out.</br>
 
-###About js
+### About js
 > The most important function as follow:
 
 ```javascript
@@ -35,7 +35,7 @@ $(function() {
         init_layout();
         img_transition();
     });
-    init(); 
+    init();
 });
 ```
 ```javascript
@@ -53,7 +53,7 @@ function init() {
             $(e).children().eq(1).css({"display":"none"});
         });
     })  
-    $(".scrollTip").css({"animation":"pulse 1s infinite"}); 
+    $(".scrollTip").css({"animation":"pulse 1s infinite"});
     $(".show").each(function(i,e) {
         $(e).click(function() {
             if(link[i]) window.open(link[i]);
@@ -71,5 +71,3 @@ var aim = [],
     x = window.innerWidth,
     y = window.innerHeight;
 ```
-
-
