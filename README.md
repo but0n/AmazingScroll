@@ -1,20 +1,21 @@
 # but0n.github.io
 >* Tag: `HTML` `CSS` `jQuery`
->* Idear from [hooli.xyz](http://hooli.xyz), code by myself.
+>* Idea from [hooli.xyz](http://hooli.xyz), code by myself.
 
-## Detail
-The codes of `hooli` is hard to read, </br>
-Cause they use a kind of library or something from `Adobe`,</br>
-So I use Firefox to reason out how does it works,</br>
-At last, I write it out.</br>
+## Details
+The website of hooli is funny, </br>
+But the source code is not readable, </br>
+They probably used some kind of framework from `Adobe`,</br>
+So I try to use the built-in debugging tools of browser to figure out how does it works,</br>
+At last, I figure out the solution and wrote this demo </br>
 
-### About js
-> The most important function as follow:
+### Behind the scenes
+ - The core function as follow:
 
 ```javascript
 function img_transition() {
     var len = $(window).scrollTop();        
-    $(".imageBar").each(function(i,e) {
+    $(".imageBar").each((i,e) => {
         var delta = 0.7,
             offset_val = len>=aim[i]?aim[i]+y-len+"px":"-100%",
             inner_offset = len>=aim[i]?-(aim[i]+y-len)*delta+"px":"-100%"
@@ -24,10 +25,10 @@ function img_transition() {
 }
 ```
 
-> init and bind events:
+ - init and bind events:
 
 ```javascript
-$(function() {
+$(() => {
     if(x<y) alert("原谅我目前还没有写移动端的布局。。暂时使用横屏浏览吧");
     init_layout();
     $(window).scroll(function() {img_transition()});
@@ -40,22 +41,22 @@ $(function() {
 ```
 ```javascript
 function init() {
-    $(".imageView").each(function(i,e) {
+    $(".imageView").each((i,e) => {
         $(e).css({"background-image":"url(/img/"+i+".jpg)"});
     });
-    $(".show").each(function(i,e) {
-        $(e).mousemove(function() {
+    $(".show").each((i,e) => {
+        $(e).mousemove(() => {
             $(e).children().eq(0).addClass("bluron");
             $(e).children().eq(1).css({"display":"block"});
         });
-        $(e).mouseout(function() {
+        $(e).mouseout(() => {
             $(e).children().eq(0).removeClass("bluron");
             $(e).children().eq(1).css({"display":"none"});
         });
     })  
     $(".scrollTip").css({"animation":"pulse 1s infinite"});
-    $(".show").each(function(i,e) {
-        $(e).click(function() {
+    $(".show").each((i,e) => {
+        $(e).click(() => {
             if(link[i]) window.open(link[i]);
             else alert("你可以在网上搜索有关 "+$(e).children().eq(1).text()+" 的内容")
         })
@@ -63,7 +64,7 @@ function init() {
 }
 ```
 
-> Init data
+ - Statements
 
 ```javascript
 var aim = [],
