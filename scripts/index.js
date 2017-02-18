@@ -21,7 +21,7 @@ $(() => {
 });
 function init() {
     $(".imageView").each((i,e) => {
-        $(e).css({"background-image":"url(/img/"+i+".jpg)"});
+        $(e).css({"background-image":"url(img/"+i+".jpg)"});
     });
 
     $(".show").each((i,e) => {

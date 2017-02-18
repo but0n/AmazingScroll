@@ -66,17 +66,17 @@ body {
     margin: 0 auto;
     transition: all .3s ease;
 }
-.html5_icon {background-image: url(/img/icon/HTML5_Logo_128.png);}
-.css3_icon {background-image: url(/img/icon/css3.png);}
-.jq_icon {background-image: url(/img/icon/09322308.png);}
+.html5_icon {background-image: url(img/icon/HTML5_Logo_128.png);}
+.css3_icon {background-image: url(img/icon/css3.png);}
+.jq_icon {background-image: url(img/icon/09322308.png);}
 
-.git_icon {background-image: url(/img/icon/git.png);}
-.ins_icon {background-image: url(/img/icon/ins.png);}
-.wechat_icon {background-image: url(/img/icon/wechat.png);}
+.git_icon {background-image: url(img/icon/git.png);}
+.ins_icon {background-image: url(img/icon/ins.png);}
+.wechat_icon {background-image: url(img/icon/wechat.png);}
 
-.ps_icon {background-image: url(/img/icon/ps.png);}
-.ai_icon {background-image: url(/img/icon/ai.png);}
-.ios_icon {background-image: url(/img/icon/ios.png);}
+.ps_icon {background-image: url(img/icon/ps.png);}
+.ai_icon {background-image: url(img/icon/ai.png);}
+.ios_icon {background-image: url(img/icon/ios.png);}
 
 .show {
     position: relative;
