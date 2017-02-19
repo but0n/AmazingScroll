@@ -1,6 +1,7 @@
-# but0n.github.io
->* Tag: `HTML` `CSS` `jQuery`
->* Idea from [hooli.xyz](http://hooli.xyz), code by myself.
+# AmazingScroll [![js](https://img.shields.io/badge/js-ES6.svg)](#)
+## [demo](https://but0n.github.io/AmazingScroll/)
+ - Tag: `HTML` `CSS` `jQuery`
+ - Idea from [hooli.xyz](http://hooli.xyz), code by myself.
 
 ## Details
 The website of hooli is funny, </br>
