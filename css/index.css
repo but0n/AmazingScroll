@@ -1,4 +1,4 @@
-* {font-family: sans-serif;}
+* {font-family: Monaco;}
 *::-webkit-scrollbar {
     background-color: rgba(0, 0, 0, 0);
     width: 0;
@@ -36,7 +36,7 @@ body {
 }
 .imageTitle {
     text-align: center;
-    font-size: 8rem;
+    font-size: 6rem;
     color: #20A0FF;
     text-shadow: 0 0 10px black;
     letter-spacing: 10px;
