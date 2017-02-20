@@ -1,4 +1,4 @@
-# AmazingScroll [![js](https://img.shields.io/badge/js-ES6.svg)](#)
+# AmazingScroll [![js](https://img.shields.io/badge/javascript-ES6-blue.svg)](#)
 ## [demo](https://but0n.github.io/AmazingScroll/)
  - Tag: `HTML` `CSS` `jQuery`
  - Idea from [hooli.xyz](http://hooli.xyz), code by myself.
